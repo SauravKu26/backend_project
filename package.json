@@ -2,14 +2,21 @@
   "name": "lec_6",
   "version": "1.0.0",
   "description": "a backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "saurav kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lec_6": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
